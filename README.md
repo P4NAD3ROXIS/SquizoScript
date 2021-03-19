@@ -15,8 +15,12 @@
 
 Run Sketch script
 
-´´´bash
+```bash
 $ chmod +x Sketch
-$ ./Sketch 
-´´´
+$ ./Sketch
+```
 And enjoy!
+
+# Support me
+
+[![Support me](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/panaderoxis)
