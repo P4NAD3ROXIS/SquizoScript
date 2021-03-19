@@ -10,3 +10,13 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/P4NAD3ROXIS/SquizoScript/main/Preview/Esquizo%20Script.png">
 </p>
+
+# Usage
+
+Run Sketch script
+
+´´´bash
+$ chmod +x Sketch
+$ ./Sketch 
+´´´
+And enjoy!
