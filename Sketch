@@ -1,0 +1,137 @@
+#!/bin/bash
+#Un scrpit para el squizo esquisito <3 <3
+
+#
+#
+#███████╗███████╗ ██████╗ ██╗   ██╗██╗███████╗ ██████╗ 
+#██╔════╝██╔════╝██╔═══██╗██║   ██║██║╚══███╔╝██╔═══██╗
+#█████╗  ███████╗██║   ██║██║   ██║██║  ███╔╝ ██║   ██║
+#██╔══╝  ╚════██║██║▄▄ ██║██║   ██║██║ ███╔╝  ██║   ██║
+#███████╗███████║╚██████╔╝╚██████╔╝██║███████╗╚██████╔╝
+#╚══════╝╚══════╝ ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝ ╚═════╝ 
+                                                      
+cols=`tput cols`
+pad () {
+	count=$1
+	until [[ $count -eq 1 ]]; do
+		let count-=1
+	     echo " "
+
+	done;
+	if [[ $2 ]]; then
+		echo "."
+	fi
+}
+let half=($cols-100)/2
+half=${half/.*}
+
+
+if [[ -z $1 || $1 == "--help" || $1 == "-h" || $1 == "help" ]]; then
+		echo ""
+		echo "               P A N A D E R O X I S"
+		echo ""
+		echo "                  p r e s e n t s"
+		echo ""
+		echo "███████╗███████╗ ██████╗ ██╗   ██╗██╗███████╗ ██████╗ "
+		echo "██╔════╝██╔════╝██╔═══██╗██║   ██║██║╚══███╔╝██╔═══██╗"
+		echo "█████╗  ███████╗██║   ██║██║   ██║██║  ███╔╝ ██║   ██║"
+		echo "██╔══╝  ╚════██║██║▄▄ ██║██║   ██║██║ ███╔╝  ██║   ██║"
+		echo "███████╗███████║╚██████╔╝╚██████╔╝██║███████╗╚██████╔╝"
+		echo "╚══════╝╚══════╝ ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝ ╚═════╝ "
+		echo ""
+		echo "       usage: Sketch [option]"
+		echo ""
+		echo " ansi art of Squizo from SquizoVerse"
+		echo ""
+		echo " --help,    -h : display this message"
+		echo " --version, -v : display version and license"
+		echo " --giga,    -g : display the art Gigant"
+		echo " --mini,   -m : display the art in mini"
+		echo "  author:  Natry Nevnf > Panaderoxis"
+		echo "  crew: https://github.com/P4NAD3ROXIS"
+		echo ""
+
+else
+	if [[ $1 == "--mini" || $1 == "-m" || $1 == "mini" ]]; then                                        
+                                           
+	    echo "                                          **                                    ";
+	    echo "                                        .(/                                     ";
+	    echo "                                       .((.                                     ";
+	    echo "                           ......      *(/                                      ";
+	    echo "                        ,(**(#(,.     .(/(.                                     ";
+	    echo "                        ,((.           ,(*(,      .((((((,.                     ";
+	    echo "                        *(.        ,,.  ,(,,(.       .*((*(,                    ";
+	    echo "                        *.       .(/.    .(((.          ,##(.                   ";
+	    echo "                                  ,  .,((((#.   ,,.      .((.                   ";
+	    echo "           .(,..        ..((/*((*,..(/,.,(#*.     .(.      *                    ";
+	    echo "              ..*(((/*((/...*(,,(**(,,/((,(*(,                                  ";
+	    echo "                    ..,/(((,.   .(*,(*/(/(*(,(,   .(((/(##(..                   ";
+	    echo "                                 ,(*(((((((,((((((,.*(*..  .,(((.               ";
+	    echo "                      .,   .(.    .(*...,/((.  .*((,.                           ";
+	    echo "                     .(#.   ..,.  ,##*..         /                              ";
+	    echo "                     .(/((.      *(,(*.         ,(.                             ";
+	    echo "                      /((((#((,  .(,./(.      .*,.    .(.                       ";
+	    echo "                                   .(//(.            .(#.                       ";
+	    echo "                                     /#(.        .,((*(/.                       ";
+	    echo "                                    ./(.          ....                          ";
+	    echo "                                    ,/                                          ";
+	    echo "                                   .,                                           ";
+       	elif [[ $1 = '--version' || $1 = '-v' || $1 == "version" ]]; then
+		echo "SquizoVerse v1.0"
+		echo "Made by: Panaderoxis"
+		echo "        ▟▙"
+		echo "▟▒░░░░░░░▜▙▜████████████████████████████████▛"
+		echo "▜▒░░░░░░░▟▛▟▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▛"
+		echo "        ▜▛"
+		echo "License: Free"
+		echo "Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)"
+		echo "http://creativecommons.org/licenses/by-sa/3.0/"
+		exit
+	elif [[ $1 = '--giga' || $1 = '-g' || $1 == "giga" ]]; then
+
+	    echo '                                                    `..`                                            ';
+	    echo '                                                   `-+-`                                            ';
+	    echo '                                                  `-+:`                                             ';
+	    echo '                                                 `-o+.`                                             ';
+	    echo '                                               `.+o-`                                               ';
+	    echo '                                                ./s+.                                               ';
+	    echo '                                ``````````     `-ss/`                                               ';
+	    echo '                             `.:/+++++++/:`    `/ss/.                                               ';
+	    echo '                             .+s+ooo+/:-.`     ./soo-`                                              ';
+	    echo '                             .oso/-.``         `:s+oo-`       `.------..`                           ';
+	    echo '                            `.os/.             `.+o/+o/.`     ./+ossoo+o/.`                         ';
+	    echo '                            `.o+.`        `-:-.``.+o::o+.      ``.:/oo+/s/.                         ';
+	    echo '                            `.o-`        `/+/:-` `.+o/+o-`         `./soso-`                        ';
+	    echo '                             `-`         .+/.`   `.-+ss/.            `:oss/`                        ';
+	    echo '                                         `/.``.-:/+ooso.` `..-.`      `:ss/`                        ';
+	    echo '              ```              `.-://:.`````-+o+/::/os/`  `.:/+/.`     `:o:`                        ';
+	    echo '             `://:-..``     ``-/o+///ss++/:-+s+:-/+sso/.`    `-+/`      `-`                         ';
+	    echo '              ``-:/+o+/:-.-:/oo/-..:oo+oo+oo//ooso+:soo+.`    `..`                                  ';
+	    echo '                  ``.-:+ossso/:-:/+o:..-o+:+o:/osoo:oo/o/.     ``.----.``                           ';
+	    echo '                       ``-://++++/-``  `/s/-+o+oooo//s//s:`  `-/oo++osso/:.``                       ';
+	    echo '                             `````     `.+o-:s++++//:+o/oo:-:+o/::+oo+///++o/:-``                   ';
+	    echo '                                 `-.`   `-ooosso+///o+/+ossso/::+o/-```  ``.-:/+/-`                 ';
+	    echo '                          `.-`   `//.`   `-os/-.--:/+o-...-/+oo+:.`           ``.-.                 ';
+	    echo '                          `/o-`  `:+//:-``.oo/++++//:-`    ``..`                                    ';
+	    echo '                          .os+.`  `.--..`./ss+:.```        `./.`                                    ';
+	    echo '                         `.ooo+-``      `/s+oo-`           .:s-`                                    ';
+	    echo '                          .oo:/++:-.``  .+o--+o-`       `.-/oo-`   `:`                              ';
+	    echo '                          `:o+++ooo+/.  `-o+--+o-`      `-:::.`   `-o-`                             ';
+	    echo '                           `.-----..`    `-+o/:oo.`               ./s:`                             ';
+	    echo '                                           `-+o+s-`            ``-+ss:`                             ';
+	    echo '                                            `-oss:`        `..-:+o+oo-`                             ';
+	    echo '                                             .+s/.         .:/+oo+++:`                              ';
+	    echo '                                            `-o+.`          ````...`                                ';
+	    echo '                                            .++.`                                                   ';
+	    echo '                                           `:+.`                                                    ';
+	    echo '                                          `./.`                                                     ';
+	    echo '                                           .`                                                       ';
+
+		exit
+	else
+		echo "unknown option"
+		echo "call 'Sketch --help' for more info"
+		exit
+	fi
+fi
+exit
