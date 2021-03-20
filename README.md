@@ -8,7 +8,7 @@
 <p align="center">A simple script for ascii art based in Sketch Logo</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/P4NAD3ROXIS/SquizoScript/main/Preview/Esquizo%20Script.png">
+  <img src="https://media1.giphy.com/media/i6nJuhcd7E4pcPlbVY/giphy.gif">
 </p>
 
 # Usage
